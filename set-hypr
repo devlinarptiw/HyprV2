@@ -164,7 +164,7 @@ if [[ $INST == "Y" || $INST == "y" ]]; then
 
     #Stage 3
     echo -e "\n$CNT - Stage 3 - Installing theme and visual related tools and utilities, this may take a while..."
-    yay -S sddm
+    yay -Sy sddm
     for SOFTWR in starship ttf-jetbrains-mono-nerd noto-fonts-emoji lxappearance xfce4-settings qt5-svg qt5-quickcontrols2 qt5-graphicaleffects
     do
         #First lets see if the package is there
